@@ -25,4 +25,8 @@ This will download the necessary datasets and put the models in the models folde
 
 ## Serving
 
-... TBD
+To generate some samples check out `generate.py`
+
+```
+(songdreamer) $ python generate.py
+```
