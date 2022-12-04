@@ -9,10 +9,6 @@ from aitextgen import aitextgen
 MODEL="EleutherAI/gpt-neo-125M"
 # MODEL = "EleutherAI/gpt-neo-1.3B"
 
-# ARTIST_NAME = "eminem"
-# ARTIST_NAME = "katy-perry"
-ARTIST_NAME = "metallica"
-
 class Trainer:
 	def __init__(self, model, artist_name):
 		self.model = model
@@ -22,7 +18,7 @@ class Trainer:
 		self.tokenizer.pad_token = self.tokenizer.eos_token
 	
 	def file_name(self):
-		return f"lyric_texts/{ARTIST_NAME}.txt"
+		return f"lyric_texts/{self.artist_name}.txt"
 
 	def normalized_model_name(self):
 		return self.model.replace("/", "--").lower()

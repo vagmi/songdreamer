@@ -3,3 +3,5 @@ pytorch-lightning==1.5.0
 aitextgen==0.5.2
 datasets>=2.7.1
 transformers>=4.24.0
+flask>=2.2.2
+flask-cors>=3.0.10

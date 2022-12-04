@@ -25,8 +25,10 @@ This will download the necessary datasets and put the models in the models folde
 
 ## Serving
 
-To generate some samples check out `generate.py`
+To generate some samples check out `server.py`
 
 ```
-(songdreamer) $ python generate.py
+(songdreamer) $ python server.py
 ```
+
+The server starts on port 4000 and is setup for CORS.

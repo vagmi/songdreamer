@@ -1,3 +1,5 @@
 lyric_texts
 models
 aitextgen
+__pycache__
+dist
